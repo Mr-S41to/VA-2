@@ -61,24 +61,24 @@ do{
 				printf("Tamanho do processo: \n");
 				scanf("%d", &tamanho);
 				verificarPrioridade(prioridade, t, f);
-				void enfileirarProcesso(int PID, int tamanho,  char nome[32], Fila *f1, Fila f2);
+				enfileirarProcesso(int PID, int tamanho, char nome[32], Fila *f1, Fila f2);
 				break;
 			case 2:
-				void liberarPrrocessosF1 (Fila *f1);
+				liberarPrrocessosF1(Fila *f1);
 				break;
 			case 3:
-				void liberarPrrocessosF12 (Fila *f2);
+				void liberarPrrocessosF2(Fila *f2);
 				break;
 			case 4:
-				void imprimirF1 (Fila *f1);
+				imprimirF1(Fila *f1);
 				break;
 			case 5:
-				void imprimirF2 (Fila *f2);
+				imprimirF2(Fila *f2);
 				break;
 			case 6:
 				printf("Insira o numero do PID que deve ser removido \n");
 				scanf("%d", &numPID);
-				void RemoveProcessoPorPID(int NumPID);
+				RemoveProcessoPorPID(int NumPID);
 				break;
 			default:
 				if(select != 0)
